@@ -27,7 +27,7 @@ public class MinSpanningTreeTest {
 		System.out.println();
 		System.out.println("最小生成树权值为："+sumweight);
 		
-		int n=1000;
+		int n=100;
 		System.out.println("数据规模："+n);
 		AdjGraph testg=new AdjGraph();
 		testg.createSparseGraph(n);

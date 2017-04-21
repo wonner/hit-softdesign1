@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Random;
 
+
+
 public class AdjGraph {
 	
 	private VertexNode[] verlist;
@@ -268,5 +270,15 @@ public class AdjGraph {
 				verlist[n-j].setFirstedge(temp1);
 			}
 		}
+	}
+	
+	public int getN()
+	{
+		return this.n;
+	}
+	
+	public VertexNode getVertexNode(int i)
+	{
+		return this.verlist[i];
 	}
 }
